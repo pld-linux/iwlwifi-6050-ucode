@@ -6,9 +6,11 @@ Version:	41.28.5.1
 Release:	1
 License:	distributable
 Group:		Base/Kernel
-Source0:	http://wireless.kernel.org/en/users/Drivers/iwlwifi?action=AttachFile&do=get&target=iwlwifi-6050-ucode-%{version}.tgz
+# Source0:	http://wireless.kernel.org/en/users/Drivers/iwlwifi?action=AttachFile&do=get&target=iwlwifi-6050-ucode-%{version}.tgz
+Source0:	http://pkgs.fedoraproject.org/repo/pkgs/iwl6050-firmware/iwlwifi-6050-ucode-%{version}.tgz/cb484a65b9139666d4ddebf60598a87b/iwlwifi-6050-ucode-41.28.5.1.tgz
 # Source0-md5:	cb484a65b9139666d4ddebf60598a87b
-Source1:	http://wireless.kernel.org/en/users/Drivers/iwlwifi?action=AttachFile&do=get&target=iwlwifi-6050-ucode-9.201.4.1.tgz
+# Source1:	http://wireless.kernel.org/en/users/Drivers/iwlwifi?action=AttachFile&do=get&target=iwlwifi-6050-ucode-9.201.4.1.tgz
+Source1:	http://pkgs.fedoraproject.org/repo/pkgs/iwl6050-firmware/iwlwifi-6050-ucode-9.201.4.1.tgz/12a663e415e76b6c46fcfecaa9f8e40b/iwlwifi-6050-ucode-9.201.4.1.tgz
 # Source1-md5:	12a663e415e76b6c46fcfecaa9f8e40b
 URL:		http://www.intellinuxwireless.org/
 BuildArch:	noarch
