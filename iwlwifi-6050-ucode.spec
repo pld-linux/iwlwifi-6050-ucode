@@ -1,6 +1,7 @@
 %define	_fname	6050
 %define	_module	6050
 Summary:	Microcode image for Intel Centrino Wireless-N + WiMAX 6150, Advanced-N + WiMAX 6250
+Summary(pl.UTF-8):	Obraz mikrokodu dla układów Intel Centrino Wireless-N + WiMAX 6150, Advanced-N + WiMAX 6250
 Name:		iwlwifi-%{_module}-ucode
 Version:	41.28.5.1
 Release:	1
@@ -61,4 +62,4 @@ rm -rf $RPM_BUILD_ROOT
 %defattr(644,root,root,755)
 %doc README.*
 /lib/firmware/%{name}-LICENSE
-/lib/firmware/*.ucode
+/lib/firmware/iwlwifi-6050-*.ucode
